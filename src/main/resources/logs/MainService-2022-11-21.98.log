@@ -1,0 +1,80 @@
+2022-11-21 17:47:18,326 INFO [http-nio-8080-exec-6] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:18,334 DEBUG [http-nio-8080-exec-10] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:18,368 DEBUG [http-nio-8080-exec-2] org.springframework.security.web.FilterChainProxy: Securing GET /department/get
+2022-11-21 17:47:18,452 DEBUG [http-nio-8080-exec-10] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:18,452 INFO [http-nio-8080-exec-10] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:18,452 INFO [http-nio-8080-exec-10] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:18,453 INFO [http-nio-8080-exec-10] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:18,458 DEBUG [http-nio-8080-exec-7] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:18,494 DEBUG [http-nio-8080-exec-2] org.springframework.security.web.FilterChainProxy: Secured GET /department/get
+2022-11-21 17:47:18,495 INFO [http-nio-8080-exec-2] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:18,495 INFO [http-nio-8080-exec-2] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:18,495 INFO [http-nio-8080-exec-2] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:18,506 INFO [http-nio-8080-exec-2] clients.com.exampleMainService.DepartmentClient: {"id":"0", "timestamp":"1669034838499", "username":"admin", "requestURL":"http://localhost:8081/department/get", "responseCode":"200", "message":"List of Departments received.", "status":"Success", "meta":}
+2022-11-21 17:47:18,623 DEBUG [http-nio-8080-exec-7] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:18,623 INFO [http-nio-8080-exec-7] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:18,623 INFO [http-nio-8080-exec-7] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:18,623 INFO [http-nio-8080-exec-7] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:18,631 DEBUG [http-nio-8080-exec-1] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:18,736 DEBUG [http-nio-8080-exec-1] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:18,736 INFO [http-nio-8080-exec-1] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:18,736 INFO [http-nio-8080-exec-1] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:18,736 INFO [http-nio-8080-exec-1] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:18,743 DEBUG [http-nio-8080-exec-8] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:18,843 DEBUG [http-nio-8080-exec-8] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:18,843 INFO [http-nio-8080-exec-8] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:18,843 INFO [http-nio-8080-exec-8] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:18,843 INFO [http-nio-8080-exec-8] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:35,516 DEBUG [http-nio-8080-exec-5] org.springframework.security.web.FilterChainProxy: Securing GET /department/get
+2022-11-21 17:47:35,525 DEBUG [http-nio-8080-exec-9] org.springframework.security.web.FilterChainProxy: Securing GET /role/roles
+2022-11-21 17:47:35,550 DEBUG [http-nio-8080-exec-4] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:35,677 DEBUG [http-nio-8080-exec-5] org.springframework.security.web.FilterChainProxy: Secured GET /department/get
+2022-11-21 17:47:35,679 INFO [http-nio-8080-exec-5] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:35,680 INFO [http-nio-8080-exec-5] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:35,680 INFO [http-nio-8080-exec-5] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:35,701 DEBUG [http-nio-8080-exec-9] org.springframework.security.web.FilterChainProxy: Secured GET /role/roles
+2022-11-21 17:47:35,705 INFO [http-nio-8080-exec-9] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:35,706 INFO [http-nio-8080-exec-9] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:35,707 INFO [http-nio-8080-exec-9] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:35,706 INFO [http-nio-8080-exec-5] clients.com.exampleMainService.DepartmentClient: {"id":"0", "timestamp":"1669034855685", "username":"admin", "requestURL":"http://localhost:8081/department/get", "responseCode":"200", "message":"List of Departments received.", "status":"Success", "meta":}
+2022-11-21 17:47:35,737 DEBUG [http-nio-8080-exec-6] org.springframework.security.web.FilterChainProxy: Securing GET /department/get
+2022-11-21 17:47:35,772 DEBUG [http-nio-8080-exec-4] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:35,772 INFO [http-nio-8080-exec-4] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:35,773 INFO [http-nio-8080-exec-4] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:35,773 INFO [http-nio-8080-exec-4] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:35,782 DEBUG [http-nio-8080-exec-3] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:35,871 DEBUG [http-nio-8080-exec-6] org.springframework.security.web.FilterChainProxy: Secured GET /department/get
+2022-11-21 17:47:35,871 INFO [http-nio-8080-exec-6] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:35,871 INFO [http-nio-8080-exec-6] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:35,871 INFO [http-nio-8080-exec-6] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:35,881 INFO [http-nio-8080-exec-6] clients.com.exampleMainService.DepartmentClient: {"id":"0", "timestamp":"1669034855874", "username":"admin", "requestURL":"http://localhost:8081/department/get", "responseCode":"200", "message":"List of Departments received.", "status":"Success", "meta":}
+2022-11-21 17:47:35,911 DEBUG [http-nio-8080-exec-3] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:35,911 INFO [http-nio-8080-exec-3] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:35,911 INFO [http-nio-8080-exec-3] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:35,911 INFO [http-nio-8080-exec-3] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:35,918 DEBUG [http-nio-8080-exec-10] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:36,017 DEBUG [http-nio-8080-exec-10] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:36,017 INFO [http-nio-8080-exec-10] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:36,017 INFO [http-nio-8080-exec-10] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:36,018 INFO [http-nio-8080-exec-10] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:36,024 DEBUG [http-nio-8080-exec-2] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:36,120 DEBUG [http-nio-8080-exec-2] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:36,120 INFO [http-nio-8080-exec-2] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:36,120 INFO [http-nio-8080-exec-2] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:36,120 INFO [http-nio-8080-exec-2] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:36,126 DEBUG [http-nio-8080-exec-7] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:36,221 DEBUG [http-nio-8080-exec-7] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:36,221 INFO [http-nio-8080-exec-7] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:36,221 INFO [http-nio-8080-exec-7] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:36,221 INFO [http-nio-8080-exec-7] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:59,085 DEBUG [http-nio-8080-exec-1] org.springframework.security.web.FilterChainProxy: Securing GET /department/get
+2022-11-21 17:47:59,100 DEBUG [http-nio-8080-exec-8] org.springframework.security.web.FilterChainProxy: Securing GET /role/roles
+2022-11-21 17:47:59,115 DEBUG [http-nio-8080-exec-9] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 17:47:59,232 DEBUG [http-nio-8080-exec-1] org.springframework.security.web.FilterChainProxy: Secured GET /department/get
+2022-11-21 17:47:59,232 INFO [http-nio-8080-exec-1] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:59,232 INFO [http-nio-8080-exec-1] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:59,232 INFO [http-nio-8080-exec-1] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 17:47:59,239 DEBUG [http-nio-8080-exec-8] org.springframework.security.web.FilterChainProxy: Secured GET /role/roles
+2022-11-21 17:47:59,239 INFO [http-nio-8080-exec-8] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 17:47:59,239 INFO [http-nio-8080-exec-8] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 17:47:59,239 INFO [http-nio-8080-exec-8] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN

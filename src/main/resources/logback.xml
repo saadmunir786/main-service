@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="ConsoleLogger" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d %highlight(%level) [%thread] %cyan(%logger:) %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="FixedLogger" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>D:\\Tasks\\MainService\\src\\main\\resources\\logs\\fixed.log</file>
+        <encoder>
+            <pattern>%d %level [%thread] %logger: %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>D:\\Tasks\\MainService\\src\\main\\resources\\logs\\fixed-%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <minIndex>0</minIndex>
+            <maxIndex>3</maxIndex>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="FileLogger" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>D:\\Tasks\\MainService\\src\\main\\resources\\logs\\MainService.log</file>
+        <encoder>
+            <pattern>%d %level [%thread] %logger: %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>D:\\Tasks\\MainService\\src\\main\\resources\\logs\\MainService-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10KB</maxFileSize>
+            <maxHistory>2</maxHistory>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+    </appender>
+    <appender name="HtmlFileLogger" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>D:\\Tasks\\MainService\\src\\main\\resources\\logs\\MainService.html</file>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.html.HTMLLayout">
+                <pattern>%d %level [%thread] %logger: %msg%n</pattern>
+            </layout>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>D:\\Tasks\\MainService\\src\\main\\resources\\logs\\MainService-%d{yyyy-MM-dd}.%i.html</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>2</maxHistory>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+    </appender>
+
+    <logger name="com.exampleMainService.clients.DepartmentClient" level="TRACE"></logger>
+
+
+    <root level="INFO">
+        <appender-ref ref="ConsoleLogger"/>
+        <appender-ref ref="FileLogger"/>
+        <appender-ref ref="HtmlFileLogger"/>
+        <appender-ref ref="FixedLogger"/>
+    </root>
+</configuration>

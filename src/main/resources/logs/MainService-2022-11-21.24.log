@@ -1,0 +1,60 @@
+2022-11-21 15:59:17,026 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1564 ms
+2022-11-21 15:59:17,231 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-21 15:59:17,267 INFO [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-21 15:59:17,392 INFO [restartedMain] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-21 15:59:17,472 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-11-21 15:59:17,712 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-11-21 15:59:17,728 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-21 15:59:18,239 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-21 15:59:18,247 INFO [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-21 15:59:18,610 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-21 15:59:18,931 INFO [restartedMain] configurations.com.exampleMainService.SecurityConfiguration: Allowed Roles: ADMIN,USER,MANAGER,SALEPERSON,II,newrole
+2022-11-21 15:59:19,220 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4e007882, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a6ce3e7, org.springframework.security.web.context.SecurityContextPersistenceFilter@1095d91a, org.springframework.security.web.header.HeaderWriterFilter@675c3390, org.springframework.web.filter.CorsFilter@55b8017d, org.springframework.security.web.authentication.logout.LogoutFilter@71955d4f, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@1eec9a28, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@6eb02e97, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@26605361, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@101739a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f0c893, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ae1b5e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e3bb039, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d9e9748, org.springframework.security.web.session.SessionManagementFilter@828b701, org.springframework.security.web.access.ExceptionTranslationFilter@75ee561a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32ae53a0]
+2022-11-21 15:59:19,348 WARN [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-11-21 15:59:19,429 WARN [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: Unable to start LiveReload server
+2022-11-21 15:59:19,451 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-11-21 15:59:19,474 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-21 15:59:19,490 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Started MainServiceApplication in 4.662 seconds (JVM running for 6.538)
+2022-11-21 15:59:31,701 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-21 15:59:31,702 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-11-21 15:59:31,705 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet: Completed initialization in 2 ms
+2022-11-21 15:59:31,723 DEBUG [http-nio-8080-exec-3] org.springframework.security.web.FilterChainProxy: Securing GET /role/roles
+2022-11-21 15:59:31,724 DEBUG [http-nio-8080-exec-2] org.springframework.security.web.FilterChainProxy: Securing GET /department/get
+2022-11-21 15:59:31,725 DEBUG [http-nio-8080-exec-1] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 15:59:31,767 DEBUG [http-nio-8080-exec-4] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 15:59:32,516 WARN [http-nio-8080-exec-3] org.apache.catalina.util.SessionIdGeneratorBase: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [482] milliseconds.
+2022-11-21 15:59:32,517 WARN [http-nio-8080-exec-2] org.apache.catalina.util.SessionIdGeneratorBase: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [488] milliseconds.
+2022-11-21 15:59:32,517 WARN [http-nio-8080-exec-4] org.apache.catalina.util.SessionIdGeneratorBase: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [483] milliseconds.
+2022-11-21 15:59:32,525 DEBUG [http-nio-8080-exec-2] org.springframework.security.web.FilterChainProxy: Secured GET /department/get
+2022-11-21 15:59:32,525 DEBUG [http-nio-8080-exec-3] org.springframework.security.web.FilterChainProxy: Secured GET /role/roles
+2022-11-21 15:59:32,525 DEBUG [http-nio-8080-exec-4] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 15:59:32,526 INFO [http-nio-8080-exec-4] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 15:59:32,526 INFO [http-nio-8080-exec-2] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 15:59:32,526 INFO [http-nio-8080-exec-3] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 15:59:32,526 INFO [http-nio-8080-exec-3] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 15:59:32,526 INFO [http-nio-8080-exec-4] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 15:59:32,526 INFO [http-nio-8080-exec-2] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 15:59:32,527 INFO [http-nio-8080-exec-3] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 15:59:32,527 INFO [http-nio-8080-exec-4] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 15:59:32,527 INFO [http-nio-8080-exec-2] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 15:59:32,620 INFO [http-nio-8080-exec-2] clients.com.exampleMainService.DepartmentClient: {"id":"0", "timestamp":"1669028372549", "username":"admin", "requestURL":"http://localhost:8081/department/get", "responseCode":"200", "message":"List of Departments received.", "status":"Success", "meta":}
+2022-11-21 16:01:41,787 DEBUG [http-nio-8080-exec-8] org.springframework.security.web.FilterChainProxy: Securing GET /role/roles
+2022-11-21 16:01:41,794 DEBUG [http-nio-8080-exec-9] org.springframework.security.web.FilterChainProxy: Securing GET /department/get
+2022-11-21 16:01:41,798 DEBUG [http-nio-8080-exec-10] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 16:01:41,917 DEBUG [http-nio-8080-exec-8] org.springframework.security.web.FilterChainProxy: Secured GET /role/roles
+2022-11-21 16:01:41,918 INFO [http-nio-8080-exec-8] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 16:01:41,918 INFO [http-nio-8080-exec-8] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 16:01:41,918 INFO [http-nio-8080-exec-8] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 16:01:41,927 DEBUG [http-nio-8080-exec-9] org.springframework.security.web.FilterChainProxy: Secured GET /department/get
+2022-11-21 16:01:41,927 INFO [http-nio-8080-exec-9] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 16:01:41,927 INFO [http-nio-8080-exec-9] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 16:01:41,927 INFO [http-nio-8080-exec-9] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 16:01:41,940 DEBUG [http-nio-8080-exec-10] org.springframework.security.web.FilterChainProxy: Secured GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 16:01:41,940 INFO [http-nio-8080-exec-10] filters.com.exampleMainService.PermissionFilter: Inside doFilter method.
+2022-11-21 16:01:41,941 INFO [http-nio-8080-exec-10] filters.com.exampleMainService.PermissionFilter: Request method: GET
+2022-11-21 16:01:41,941 INFO [http-nio-8080-exec-10] filters.com.exampleMainService.PermissionFilter: ROLE_ADMIN
+2022-11-21 16:01:41,946 INFO [http-nio-8080-exec-9] clients.com.exampleMainService.DepartmentClient: {"id":"0", "timestamp":"1669028501935", "username":"admin", "requestURL":"http://localhost:8081/department/get", "responseCode":"200", "message":"List of Departments received.", "status":"Success", "meta":}
+2022-11-21 16:02:04,877 DEBUG [http-nio-8080-exec-1] org.springframework.security.web.FilterChainProxy: Securing GET /role/roles
+2022-11-21 16:02:04,902 DEBUG [http-nio-8080-exec-3] org.springframework.security.web.FilterChainProxy: Securing GET /department/get
+2022-11-21 16:02:04,902 DEBUG [http-nio-8080-exec-4] org.springframework.security.web.FilterChainProxy: Securing GET /role/role?role=oxUgusR8Q5E3MJawvOa2PA%3D%3D
+2022-11-21 16:02:05,035 DEBUG [http-nio-8080-exec-1] org.springframework.security.web.FilterChainProxy: Secured GET /role/roles

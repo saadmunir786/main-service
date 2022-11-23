@@ -1,0 +1,87 @@
+2022-11-23 11:09:30,492 INFO [Thread-5] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 11:09:30,496 INFO [Thread-5] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Shutdown initiated...
+2022-11-23 11:09:30,516 INFO [Thread-5] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Shutdown completed.
+2022-11-23 11:09:30,650 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Starting MainServiceApplication using Java 11.0.16 on Desktop-CDN-T480 with PID 1584 (D:\Tasks\MainService\target\classes started by T480 in D:\Tasks\MainService)
+2022-11-23 11:09:30,651 INFO [restartedMain] com.exampleMainService.MainServiceApplication: No active profile set, falling back to 1 default profile: "default"
+2022-11-23 11:09:30,961 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-23 11:09:30,962 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-11-23 11:09:31,161 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-11-23 11:09:31,162 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 11:09:31,163 INFO [restartedMain] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-11-23 11:09:31,163 INFO [restartedMain] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-23 11:09:31,217 INFO [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-11-23 11:09:31,217 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 524 ms
+2022-11-23 11:09:31,287 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-23 11:09:31,296 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Starting...
+2022-11-23 11:09:31,321 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Start completed.
+2022-11-23 11:09:31,322 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-23 11:09:31,391 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-23 11:09:31,391 INFO [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 11:09:31,427 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-23 11:09:31,582 WARN [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-11-23 11:09:31,755 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@374041fc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@689d030f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6740aac1, org.springframework.security.web.header.HeaderWriterFilter@40dd1b3, org.springframework.security.web.csrf.CsrfFilter@6776bc8e, org.springframework.security.web.authentication.logout.LogoutFilter@593426ba, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@43de0b55, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@392ede51, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@5a5526fb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7f25464e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@48103a93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27ec69a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d06a4a7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b20be72, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@62f2363d, org.springframework.security.web.session.SessionManagementFilter@3580e233, org.springframework.security.web.access.ExceptionTranslationFilter@6b75633a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e794897]
+2022-11-23 11:09:31,780 WARN [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: Unable to start LiveReload server
+2022-11-23 11:09:31,813 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-11-23 11:09:31,819 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-23 11:09:31,827 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Started MainServiceApplication in 1.24 seconds (JVM running for 3493.611)
+2022-11-23 11:09:31,834 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   OAuth2WebSecurityConfiguration.OAuth2SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-11-23 11:09:34,256 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Starting MainServiceApplication using Java 11.0.16 on Desktop-CDN-T480 with PID 1584 (D:\Tasks\MainService\target\classes started by T480 in D:\Tasks\MainService)
+2022-11-23 11:09:34,256 INFO [restartedMain] com.exampleMainService.MainServiceApplication: No active profile set, falling back to 1 default profile: "default"
+2022-11-23 11:09:34,780 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-23 11:09:34,820 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 39 ms. Found 4 JPA repository interfaces.
+2022-11-23 11:09:34,911 INFO [Thread-9] org.apache.coyote.http11.Http11NioProtocol: Pausing ProtocolHandler ["http-nio-8080"]
+2022-11-23 11:09:34,914 INFO [Thread-9] org.apache.catalina.core.StandardService: Stopping service [Tomcat]
+2022-11-23 11:09:34,920 INFO [Thread-9] org.apache.coyote.http11.Http11NioProtocol: Stopping ProtocolHandler ["http-nio-8080"]
+2022-11-23 11:09:34,924 INFO [Thread-9] org.apache.coyote.http11.Http11NioProtocol: Destroying ProtocolHandler ["http-nio-8080"]
+2022-11-23 11:09:34,927 INFO [Thread-9] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 11:09:34,928 INFO [Thread-9] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Shutdown initiated...
+2022-11-23 11:09:34,951 INFO [Thread-9] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Shutdown completed.
+2022-11-23 11:09:35,050 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-23 11:09:35,050 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-23 11:09:35,056 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Starting MainServiceApplication using Java 11.0.16 on Desktop-CDN-T480 with PID 1584 (D:\Tasks\MainService\target\classes started by T480 in D:\Tasks\MainService)
+2022-11-23 11:09:35,056 INFO [restartedMain] com.exampleMainService.MainServiceApplication: No active profile set, falling back to 1 default profile: "default"
+2022-11-23 11:09:35,112 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-11-23 11:09:35,114 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-23 11:09:35,114 INFO [restartedMain] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-11-23 11:09:35,114 INFO [restartedMain] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-23 11:09:35,162 INFO [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-11-23 11:09:35,162 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 902 ms
+2022-11-23 11:09:35,261 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-23 11:09:35,275 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-4 - Starting...

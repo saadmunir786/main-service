@@ -1,0 +1,6 @@
+2022-10-19 13:17:56,356 DEBUG [http-nio-8080-exec-4] org.springframework.security.web.FilterChainProxy: Securing GET /employee/get
+2022-10-19 13:17:56,358 DEBUG [http-nio-8080-exec-4] org.springframework.security.web.FilterChainProxy: Secured GET /employee/get
+2022-10-19 13:17:56,693 INFO [http-nio-8080-exec-4] clients.com.exampleMainService.EmployeeClient: LoggerDB{id=0, timestamp=1666167476359, username='user', requestURL='http://localhost:8081/employee/get', responseCode=200, message='List of Employees received.', status='Success', meta=''}
+2022-10-19 13:19:24,412 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 13:19:24,417 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 13:19:24,432 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.

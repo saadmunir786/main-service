@@ -1,0 +1,8 @@
+2022-11-22 12:43:11,556 WARN [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: Unable to start LiveReload server
+2022-11-22 12:43:11,644 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 12:43:11,677 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 12:43:11,691 INFO [restartedMain] com.example.MainService.MainServiceApplication: Started MainServiceApplication in 6.525 seconds (JVM running for 9.414)
+2022-11-22 14:29:34,887 WARN [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m24s500ms45µs).
+2022-11-22 16:26:17,253 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-22 16:26:17,274 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-11-22 16:26:17,287 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
