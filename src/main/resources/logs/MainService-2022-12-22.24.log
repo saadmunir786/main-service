@@ -1,0 +1,72 @@
+2022-12-22 13:12:03,530 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:12:08,584 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/validateOtp?username=admin&otp=735336
+2022-12-22 13:12:08,588 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=735336
+2022-12-22 13:12:08,683 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=735336
+2022-12-22 13:12:08,683 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:12:08,684 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:12:08,684 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:12:08,687 INFO [http-nio-8082-exec-3] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 735336 against the username: admin
+2022-12-22 13:13:07,627 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=002271
+2022-12-22 13:13:07,742 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=002271
+2022-12-22 13:13:07,742 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:13:07,742 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:13:07,742 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:13:07,746 INFO [http-nio-8082-exec-5] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 002271 against the username: admin
+2022-12-22 13:13:09,793 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=002271
+2022-12-22 13:13:09,883 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=002271
+2022-12-22 13:13:09,883 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:13:09,883 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:13:09,883 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:13:09,885 INFO [http-nio-8082-exec-1] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 002271 against the username: admin
+2022-12-22 13:13:17,954 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/validateOtp?username=admin&otp=846784
+2022-12-22 13:13:17,958 DEBUG [http-nio-8082-exec-7] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=846784
+2022-12-22 13:13:18,048 DEBUG [http-nio-8082-exec-7] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=846784
+2022-12-22 13:13:18,048 INFO [http-nio-8082-exec-7] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:13:18,048 INFO [http-nio-8082-exec-7] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:13:18,048 INFO [http-nio-8082-exec-7] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:13:18,051 INFO [http-nio-8082-exec-7] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 846784 against the username: admin
+2022-12-22 13:13:43,602 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/validateOtp?username=admin&otp=333679
+2022-12-22 13:13:43,610 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=333679
+2022-12-22 13:13:43,719 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=333679
+2022-12-22 13:13:43,719 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:13:43,719 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:13:43,720 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:13:43,723 INFO [http-nio-8082-exec-4] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 333679 against the username: admin
+2022-12-22 13:14:34,244 DEBUG [http-nio-8082-exec-6] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/validateOtp?username=admin&otp=882996
+2022-12-22 13:14:34,249 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=882996
+2022-12-22 13:14:34,338 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=882996
+2022-12-22 13:14:34,338 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:14:34,338 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:14:34,338 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:14:34,341 INFO [http-nio-8082-exec-8] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 882996 against the username: admin
+2022-12-22 13:16:18,013 DEBUG [http-nio-8082-exec-9] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=002271
+2022-12-22 13:16:18,102 DEBUG [http-nio-8082-exec-9] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=002271
+2022-12-22 13:16:18,102 INFO [http-nio-8082-exec-9] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:16:18,102 INFO [http-nio-8082-exec-9] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:16:18,102 INFO [http-nio-8082-exec-9] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:16:18,105 INFO [http-nio-8082-exec-9] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 002271 against the username: admin
+2022-12-22 13:16:23,923 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/validateOtp?username=admin&otp=008473
+2022-12-22 13:16:23,927 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=008473
+2022-12-22 13:16:24,017 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=008473
+2022-12-22 13:16:24,017 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:16:24,017 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:16:24,017 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:16:24,020 INFO [http-nio-8082-exec-1] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 008473 against the username: admin
+2022-12-22 13:17:03,362 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/validateOtp?username=admin&otp=488338
+2022-12-22 13:17:03,369 DEBUG [http-nio-8082-exec-7] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=488338
+2022-12-22 13:17:03,464 DEBUG [http-nio-8082-exec-7] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=488338
+2022-12-22 13:17:03,465 INFO [http-nio-8082-exec-7] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:17:03,465 INFO [http-nio-8082-exec-7] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:17:03,465 INFO [http-nio-8082-exec-7] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:17:03,468 INFO [http-nio-8082-exec-7] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 488338 against the username: admin
+2022-12-22 13:17:24,192 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=488338
+2022-12-22 13:17:24,277 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=488338
+2022-12-22 13:17:24,278 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:17:24,278 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 13:17:24,278 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 13:17:24,280 INFO [http-nio-8082-exec-10] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 488338 against the username: admin
+2022-12-22 13:18:50,333 DEBUG [http-nio-8082-exec-6] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/validateOtp?username=admin&otp=005537
+2022-12-22 13:18:50,341 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=admin&otp=005537
+2022-12-22 13:18:50,438 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=admin&otp=005537
+2022-12-22 13:18:50,438 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 13:18:50,438 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Request method: POST

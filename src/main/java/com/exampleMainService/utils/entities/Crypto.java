@@ -7,7 +7,7 @@ import java.util.Base64;
 
 public class Crypto {
     private static Crypto instance = new Crypto();
-    private String secretKey = "secret is secret";
+    private String secretKey = "Here is a secret";
 
     private Crypto(){}
 

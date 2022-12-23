@@ -1,0 +1,64 @@
+2022-12-22 12:34:59,098 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:34:59,207 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:34:59,207 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:34:59,207 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:34:59,207 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:34:59,213 INFO [http-nio-8082-exec-10] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:35:57,877 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:35:57,980 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:35:57,980 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:35:57,980 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:35:57,980 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:35:57,984 INFO [http-nio-8082-exec-2] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:36:33,415 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:36:33,520 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:36:33,520 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:36:33,520 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:36:33,520 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:36:33,525 INFO [http-nio-8082-exec-3] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:38:03,529 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:38:03,657 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:38:03,657 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:38:03,657 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:38:03,657 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:38:03,662 INFO [http-nio-8082-exec-4] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:38:13,700 DEBUG [http-nio-8082-exec-6] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:38:13,789 DEBUG [http-nio-8082-exec-6] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:38:13,789 INFO [http-nio-8082-exec-6] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:38:13,789 INFO [http-nio-8082-exec-6] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:38:13,789 INFO [http-nio-8082-exec-6] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:38:13,792 INFO [http-nio-8082-exec-6] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:38:37,330 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:38:37,501 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:38:37,502 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:38:37,502 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:38:37,502 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:38:37,506 INFO [http-nio-8082-exec-8] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:38:51,770 DEBUG [http-nio-8082-exec-9] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:38:51,872 DEBUG [http-nio-8082-exec-9] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:38:51,872 INFO [http-nio-8082-exec-9] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:38:51,872 INFO [http-nio-8082-exec-9] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:38:51,872 INFO [http-nio-8082-exec-9] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:38:51,875 INFO [http-nio-8082-exec-9] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:39:31,858 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:39:31,964 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:39:31,964 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:39:31,964 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:39:31,964 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:39:31,967 INFO [http-nio-8082-exec-1] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:40:06,827 DEBUG [http-nio-8082-exec-7] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:40:06,925 DEBUG [http-nio-8082-exec-7] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:40:06,925 INFO [http-nio-8082-exec-7] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:40:06,926 INFO [http-nio-8082-exec-7] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:40:06,926 INFO [http-nio-8082-exec-7] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:40:06,929 INFO [http-nio-8082-exec-7] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:40:55,073 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:40:55,174 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:40:55,174 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:40:55,175 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 12:40:55,175 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 12:40:55,178 INFO [http-nio-8082-exec-10] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: 2990099201282627
+2022-12-22 12:45:17,834 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:45:17,935 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=2990099201282627&email=no%40gmail.com
+2022-12-22 12:45:17,935 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 12:45:17,935 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Request method: POST

@@ -1,0 +1,59 @@
+2022-12-22 15:50:02,630 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 15:50:02,631 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 15:50:02,640 INFO [http-nio-8082-exec-4] com.exampleMainService.controllers.AuthenticatorController: Trying to update the user's 2-factor with username: admin
+2022-12-22 15:50:35,052 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Securing POST /user/security
+2022-12-22 15:50:35,053 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Secured POST /user/security
+2022-12-22 15:50:35,054 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 15:50:35,054 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 15:50:35,054 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 15:50:35,066 WARN [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'boolean'; nested exception is java.lang.IllegalArgumentException: Invalid boolean value [truesa]]
+2022-12-22 15:50:35,067 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Securing POST /error
+2022-12-22 15:50:35,067 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Secured POST /error
+2022-12-22 15:50:38,958 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Securing POST /user/security
+2022-12-22 15:50:38,959 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Secured POST /user/security
+2022-12-22 15:50:38,959 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 15:50:38,959 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 15:50:38,959 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 15:50:38,967 INFO [http-nio-8082-exec-8] com.exampleMainService.controllers.AuthenticatorController: Trying to update the user's 2-factor with username: admin
+2022-12-22 15:53:11,974 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-22 15:53:11,977 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-12-22 15:53:11,992 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-12-22 15:53:17,930 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Starting MainServiceApplication using Java 11.0.16 on Desktop-CDN-T480 with PID 17968 (D:\Tasks\MainService\target\classes started by T480 in D:\Tasks\MainService)
+2022-12-22 15:53:17,933 INFO [restartedMain] com.exampleMainService.MainServiceApplication: No active profile set, falling back to 1 default profile: "default"
+2022-12-22 15:53:17,935 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-12-22 15:53:17,986 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-22 15:53:17,986 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-22 15:53:18,772 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-22 15:53:18,825 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+2022-12-22 15:53:19,440 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8082 (http)
+2022-12-22 15:53:19,448 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-22 15:53:19,448 INFO [restartedMain] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-12-22 15:53:19,449 INFO [restartedMain] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-22 15:53:19,539 INFO [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-12-22 15:53:19,539 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1552 ms
+2022-12-22 15:53:19,723 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-22 15:53:19,767 INFO [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-22 15:53:19,894 INFO [restartedMain] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-22 15:53:19,972 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-12-22 15:53:20,188 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-12-22 15:53:20,205 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-22 15:53:20,775 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-22 15:53:20,781 INFO [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-22 15:53:21,105 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 15:53:21,453 INFO [restartedMain] com.exampleMainService.configurations.SecurityConfiguration: Allowed Roles: ADMIN,USER,MANAGER,SALEPERSON,II,newrole,newrole,newrole
+2022-12-22 15:53:21,685 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@255f3a9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d0434f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@77a2ebbf, org.springframework.security.web.header.HeaderWriterFilter@6987ebe3, org.springframework.web.filter.CorsFilter@23a16d0, org.springframework.security.web.authentication.logout.LogoutFilter@3a689931, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@4a8acbb6, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@1b705d48, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3cf89b02, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@29531346, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a1988b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d80cffc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@684bba02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@436757e, org.springframework.security.web.session.SessionManagementFilter@824469d, org.springframework.security.web.access.ExceptionTranslationFilter@48185c49, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77b4646b]
+2022-12-22 15:53:21,806 WARN [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-22 15:53:22,011 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-12-22 15:53:22,073 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8082"]
+2022-12-22 15:53:22,090 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-22 15:53:22,100 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Started MainServiceApplication in 4.616 seconds (JVM running for 6.089)
+2022-12-22 15:53:28,248 INFO [http-nio-8082-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-22 15:53:28,248 INFO [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-12-22 15:53:28,249 INFO [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+2022-12-22 15:53:28,257 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Securing POST /user/security
+2022-12-22 15:53:28,276 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Secured POST /user/security
+2022-12-22 15:53:28,276 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 15:53:28,276 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 15:53:28,277 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 15:53:28,325 WARN [http-nio-8082-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver: Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'boolean'; nested exception is java.lang.IllegalArgumentException: Invalid boolean value [truex]]
+2022-12-22 15:53:28,328 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Securing POST /error

@@ -1,21 +1,32 @@
 package com.exampleMainService.controllers;
 
 import com.exampleMainService.clients.EmailClient;
+import com.exampleMainService.constants.constants;
 import com.exampleMainService.entities.Authority;
 import com.exampleMainService.entities.User;
 import com.exampleMainService.services.AuthorityService;
 import com.exampleMainService.services.UserService;
 import com.exampleMainService.utils.entities.Crypto;
+import com.exampleMainService.utils.entities.ResponseWrapper;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
+import org.thymeleaf.util.StringUtils;
 
+import java.nio.charset.Charset;
 import java.security.Principal;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Random;
 
 @Controller
 @CrossOrigin(origins = {"http://localhost:4000", "https://localhost:4000"})
@@ -142,4 +153,43 @@ public class UserController {
             return true;
         return false;
     }
+    @PostMapping("/security")
+    @ResponseBody
+    public ResponseEntity<?> security(@RequestParam("username") String username, @RequestParam("isEnable") boolean isEnable){
+        try {
+            logger.info("Trying to update the user's 2-factor with username: " + username);
+            User user = userService.findByUsername(username);
+            if(user != null){
+                user.setTwoFactorEnabled(isEnable);
+                userService.save(user);
+                return new ResponseEntity<>(new ResponseWrapper(HttpStatus.OK.value()
+                        , constants.OPERATION_SUCCESSFUL)
+                        , HttpStatus.OK);
+            }
+        }catch (Exception ex){
+            logger.error("Error: "+ex.getMessage());
+            return new ResponseEntity<>(new ResponseWrapper(HttpStatus.BAD_REQUEST.value()
+                    , constants.BAD_REQUEST)
+                    , HttpStatus.BAD_REQUEST);
+        }
+        return new ResponseEntity<>(new ResponseWrapper(HttpStatus.UNAUTHORIZED.value()
+                , constants.UNAUTHORIZED)
+                , HttpStatus.UNAUTHORIZED);
+    }
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler({MethodArgumentNotValidException.class})
+    public Map<String, String> handleValidationExceptions(
+            MethodArgumentNotValidException ex) {
+        Map<String, String> errors = new HashMap<>();
+
+        errors.put("code", String.valueOf(HttpStatus.BAD_REQUEST.value()));
+        ex.getBindingResult().getAllErrors().forEach((error) -> {
+            String fieldName = ((FieldError) error).getField();
+            String errorMessage = error.getDefaultMessage();
+            errors.put(fieldName, errorMessage);
+        });
+
+        return errors;
+    }
+
 }

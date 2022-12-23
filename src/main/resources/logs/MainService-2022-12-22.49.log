@@ -1,0 +1,60 @@
+2022-12-22 16:05:07,994 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Secured GET /user/getUsers
+2022-12-22 16:05:07,995 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 16:05:07,995 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Request method: GET
+2022-12-22 16:05:07,995 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 16:05:08,001 INFO [http-nio-8082-exec-2] com.exampleMainService.controllers.AuthenticatorController: [{'username':'2990099201282627', 'password':'$2a$10$DCpXCcJm/EALB.OLbwl3jej3xUZRbGGj27YoglBOww0H61ERwf90W', 'isEnabled':true, 'email':'no@gmail.com', 'isTwoFactorEnabled':'false'}, {'username':'admin', 'password':'$2a$10$INYm8.ojdneZCPptupXHsunjde/2JbGR486L3qB2SPlQjS5r0Vsya', 'isEnabled':true, 'email':'admin@gmail.com', 'isTwoFactorEnabled':'false'}, {'username':'saadmunirmunir86@gmail.com', 'password':'$2a$10$d2ti00LUxpSZqU70AJvDG.L3o7YJPNw58lePi0n6.C5RY3ccuvJVS', 'isEnabled':true, 'email':'saadmunirmunir86@gmail.com', 'isTwoFactorEnabled':'false'}, {'username':'user', 'password':'$2a$10$ibehum.AVaVAO88meEcLV.V9vxKgHcgDQHkEwklVzzAPJ6ZCmbofW', 'isEnabled':true, 'email':'user@gmail.com', 'isTwoFactorEnabled':'false'}]
+2022-12-22 16:05:08,051 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Securing GET /user/authority?username=DPkhL6rSn5dPPXtwD05qQw%3D%3D
+2022-12-22 16:05:08,053 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Securing GET /user/validate?encodedPassword=AFRloik7lXJlhpGJLrvs4SIV60EgLH8JPwna3HAYWk8R%2BdZGlZBUJ0f1Qju3Wu08ncymDPNdYDCwyCBdaa%2F6gA%3D%3D&password=8zzRUtvOFfEroqP3N4hqGg%3D%3D
+2022-12-22 16:05:08,142 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Secured GET /user/validate?encodedPassword=AFRloik7lXJlhpGJLrvs4SIV60EgLH8JPwna3HAYWk8R%2BdZGlZBUJ0f1Qju3Wu08ncymDPNdYDCwyCBdaa%2F6gA%3D%3D&password=8zzRUtvOFfEroqP3N4hqGg%3D%3D
+2022-12-22 16:05:08,142 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 16:05:08,142 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Request method: GET
+2022-12-22 16:05:08,142 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 16:05:08,144 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Secured GET /user/authority?username=DPkhL6rSn5dPPXtwD05qQw%3D%3D
+2022-12-22 16:05:08,144 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 16:05:08,144 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: Request method: GET
+2022-12-22 16:05:08,144 INFO [http-nio-8082-exec-10] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 16:09:31,370 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Securing PUT /user/save?username=dCPtg3RgmRyv29GHImDNDGmIrwA8zD1N6LQ19W5Ku%2FU%3D&enabled=VLJC3Sc3lp3ZvoQYpRWpjw%3D%3D&password=dCPtg3RgmRyv29GHImDNDGmIrwA8zD1N6LQ19W5Ku%2FU%3D&authority=%2BOp08E6JK%2F%2F34pPHnWYQ4w%3D%3D&email=dCPtg3RgmRyv29GHImDNDGmIrwA8zD1N6LQ19W5Ku%2FU%3D
+2022-12-22 16:09:31,374 DEBUG [http-nio-8082-exec-6] org.springframework.security.web.FilterChainProxy: Securing GET /role/roles
+2022-12-22 16:09:31,478 DEBUG [http-nio-8082-exec-6] org.springframework.security.web.FilterChainProxy: Secured GET /role/roles
+2022-12-22 16:09:31,478 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Secured PUT /user/save?username=dCPtg3RgmRyv29GHImDNDGmIrwA8zD1N6LQ19W5Ku%2FU%3D&enabled=VLJC3Sc3lp3ZvoQYpRWpjw%3D%3D&password=dCPtg3RgmRyv29GHImDNDGmIrwA8zD1N6LQ19W5Ku%2FU%3D&authority=%2BOp08E6JK%2F%2F34pPHnWYQ4w%3D%3D&email=dCPtg3RgmRyv29GHImDNDGmIrwA8zD1N6LQ19W5Ku%2FU%3D
+2022-12-22 16:09:31,478 INFO [http-nio-8082-exec-6] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 16:09:31,478 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 16:09:31,478 INFO [http-nio-8082-exec-6] com.exampleMainService.filters.PermissionFilter: Request method: GET
+2022-12-22 16:09:31,478 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Request method: PUT
+2022-12-22 16:09:31,478 INFO [http-nio-8082-exec-6] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 16:09:31,478 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-22 16:09:31,584 INFO [http-nio-8082-exec-4] com.exampleMainService.controllers.AuthenticatorController: {'username':'saadmunirmunir86@gmail.com', 'password':'$2a$10$/6Vyr9do0L13Y.4YJfVtZuY2IEst8z7RYhmpdTW09V3rP18.pMIMq', 'isEnabled':true, 'email':'saadmunirmunir86@gmail.com', 'isTwoFactorEnabled':'false'}
+2022-12-22 16:09:31,584 INFO [http-nio-8082-exec-4] com.exampleMainService.controllers.AuthenticatorController: {'username':'saadmunirmunir86@gmail.com', 'authority':'ROLE_USER'}
+2022-12-22 16:09:31,591 DEBUG [http-nio-8082-exec-9] org.springframework.security.web.FilterChainProxy: Securing POST /mail
+2022-12-22 16:09:31,593 DEBUG [http-nio-8082-exec-9] org.springframework.security.web.FilterChainProxy: Securing POST /error
+2022-12-22 16:09:31,593 DEBUG [http-nio-8082-exec-9] org.springframework.security.web.FilterChainProxy: Secured POST /error
+2022-12-22 16:09:31,594 ERROR [http-nio-8082-exec-4] com.exampleMainService.clients.EmailClient: Error: Unexpected response status: 401
+2022-12-22 16:09:32,294 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=saadmunirmunir86%40gmail.com&email=saadmunirmunir86%40gmail.com
+2022-12-22 16:09:32,391 DEBUG [http-nio-8082-exec-8] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=saadmunirmunir86%40gmail.com&email=saadmunirmunir86%40gmail.com
+2022-12-22 16:09:32,391 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 16:09:32,391 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 16:09:32,391 INFO [http-nio-8082-exec-8] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 16:09:32,394 INFO [http-nio-8082-exec-8] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: saadmunirmunir86@gmail.com
+2022-12-22 16:09:39,795 DEBUG [http-nio-8082-exec-7] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/validateOtp?username=saadmunirmunir86%40gmail.com&otp=105371
+2022-12-22 16:09:39,800 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=saadmunirmunir86%40gmail.com&otp=105371
+2022-12-22 16:09:39,891 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=saadmunirmunir86%40gmail.com&otp=105371
+2022-12-22 16:09:39,892 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 16:09:39,892 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 16:09:39,892 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 16:09:39,895 INFO [http-nio-8082-exec-2] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 105371 against the username: saadmunirmunir86@gmail.com
+2022-12-22 16:09:49,476 DEBUG [http-nio-8082-exec-10] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/validateOtp?username=saadmunirmunir86%40gmail.com&otp=631798
+2022-12-22 16:09:49,481 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOtp?username=saadmunirmunir86%40gmail.com&otp=631798
+2022-12-22 16:09:49,579 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOtp?username=saadmunirmunir86%40gmail.com&otp=631798
+2022-12-22 16:09:49,580 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 16:09:49,580 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 16:09:49,580 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 16:09:49,584 INFO [http-nio-8082-exec-5] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 631798 against the username: saadmunirmunir86@gmail.com
+2022-12-22 16:09:49,595 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Securing POST /user/security?username=saadmunirmunir86%40gmail.com&isEnable=true
+2022-12-22 16:09:49,687 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Secured POST /user/security?username=saadmunirmunir86%40gmail.com&isEnable=true
+2022-12-22 16:09:49,687 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-22 16:09:49,687 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-22 16:09:49,687 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: ROLE_USER
+2022-12-22 16:09:49,690 INFO [http-nio-8082-exec-1] com.exampleMainService.controllers.AuthenticatorController: Trying to update the user's 2-factor with username: saadmunirmunir86@gmail.com
+2022-12-22 16:10:09,539 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /department/get
+2022-12-22 16:10:09,539 DEBUG [http-nio-8082-exec-6] org.springframework.security.web.FilterChainProxy: Securing GET /role/roles
+2022-12-22 16:10:09,542 DEBUG [http-nio-8082-exec-9] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /department/get

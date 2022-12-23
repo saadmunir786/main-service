@@ -14,10 +14,13 @@ public class User {
     private boolean isEnabled;
     @Column(name = "email")
     private String email;
+    @Column(name = "isTwoFactorEnabled")
+    private boolean isTwoFactorEnabled;
 
     public User(){
         isEnabled = true;
         username = password = email = null;
+        isTwoFactorEnabled = false;
     }
 
     public User(String username, String password, boolean isEnabled) {
@@ -58,6 +61,14 @@ public class User {
         this.email = email;
     }
 
+    public boolean isTwoFactorEnabled() {
+        return isTwoFactorEnabled;
+    }
+
+    public void setTwoFactorEnabled(boolean twoFactorEnabled) {
+        isTwoFactorEnabled = twoFactorEnabled;
+    }
+
     @Override
     public String toString() {
         return "{" +
@@ -65,13 +76,14 @@ public class User {
                 ", 'password':'" + password + '\'' +
                 ", 'isEnabled':" + isEnabled +
                 ", 'email':'" + email + '\'' +
+                ", 'isTwoFactorEnabled':'" + isTwoFactorEnabled + '\'' +
                 '}';
     }
 
     @Override
     public boolean equals(Object obj) {
         User user = (User)obj;
-        if(this.isEnabled == user.isEnabled && this.password == user.password && this.username == user.username && this.email == user.email)
+        if(this.isEnabled == user.isEnabled && this.password == user.password && this.username == user.username && this.email == user.email && this.isTwoFactorEnabled == user.isTwoFactorEnabled)
             return true;
         return false;
     }

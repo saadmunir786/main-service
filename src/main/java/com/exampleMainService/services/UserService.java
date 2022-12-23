@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserService {
@@ -28,5 +29,11 @@ public class UserService {
                 return true;
         }
         return false;
+    }
+    public User findByUsername(String username){
+        Optional<User> optionalUser = userRepository.findById(username);
+        if(optionalUser.isPresent())
+            return optionalUser.get();
+        return null;
     }
 }
