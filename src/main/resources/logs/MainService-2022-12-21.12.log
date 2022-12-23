@@ -1,0 +1,54 @@
+2022-12-21 16:39:17,062 WARN [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-21 16:39:17,241 WARN [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: Unable to start LiveReload server
+2022-12-21 16:39:17,303 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8082"]
+2022-12-21 16:39:17,321 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-21 16:39:17,332 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Started MainServiceApplication in 5.91 seconds (JVM running for 7.425)
+2022-12-21 16:39:18,629 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-21 16:39:18,632 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-12-21 16:39:18,647 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-12-21 16:39:26,655 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-12-21 16:39:26,656 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Starting MainServiceApplication using Java 11.0.16 on Desktop-CDN-T480 with PID 9736 (D:\Tasks\MainService\target\classes started by T480 in D:\Tasks\MainService)
+2022-12-21 16:39:26,660 INFO [restartedMain] com.exampleMainService.MainServiceApplication: No active profile set, falling back to 1 default profile: "default"
+2022-12-21 16:39:26,702 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-21 16:39:26,702 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-21 16:39:27,485 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-21 16:39:27,548 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+2022-12-21 16:39:28,151 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8082 (http)
+2022-12-21 16:39:28,158 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-21 16:39:28,158 INFO [restartedMain] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-12-21 16:39:28,158 INFO [restartedMain] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-21 16:39:28,245 INFO [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-12-21 16:39:28,245 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1542 ms
+2022-12-21 16:39:28,431 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-21 16:39:28,479 INFO [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-21 16:39:28,603 INFO [restartedMain] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-21 16:39:28,687 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-12-21 16:39:28,917 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-12-21 16:39:28,933 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-21 16:39:29,536 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-21 16:39:29,544 INFO [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-21 16:39:29,873 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-21 16:39:30,208 INFO [restartedMain] com.exampleMainService.configurations.SecurityConfiguration: Allowed Roles: ADMIN,USER,MANAGER,SALEPERSON,II,newrole,newrole,newrole
+2022-12-21 16:39:30,459 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@72a374d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7964b2f8, org.springframework.security.web.context.SecurityContextPersistenceFilter@39d23d00, org.springframework.security.web.header.HeaderWriterFilter@3ff21c3a, org.springframework.web.filter.CorsFilter@68c00e95, org.springframework.security.web.authentication.logout.LogoutFilter@e692fcb, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@473cfa7a, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@65ed47f3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@48902c99, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@356030e6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53a9c9a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bfb3fab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58a65cdd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c8cef51, org.springframework.security.web.session.SessionManagementFilter@1092be75, org.springframework.security.web.access.ExceptionTranslationFilter@5b18b75d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a60b8f0]
+2022-12-21 16:39:30,590 WARN [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-21 16:39:30,788 WARN [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: Unable to start LiveReload server
+2022-12-21 16:39:30,850 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8082"]
+2022-12-21 16:39:30,867 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-21 16:39:30,878 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Started MainServiceApplication in 4.634 seconds (JVM running for 6.457)
+2022-12-21 16:39:32,972 INFO [http-nio-8082-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-21 16:39:32,973 INFO [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-12-21 16:39:32,975 INFO [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet: Completed initialization in 2 ms
+2022-12-21 16:39:32,987 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString
+2022-12-21 16:39:33,009 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString
+2022-12-21 16:39:33,010 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 16:39:33,010 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 16:39:33,011 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 16:39:33,064 INFO [http-nio-8082-exec-2] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: admin
+2022-12-21 16:43:28,133 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Securing OPTIONS /authenticator/authenticatorString?username=admin&email=null
+2022-12-21 16:43:28,152 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/authenticatorString?username=admin&email=null
+2022-12-21 16:43:28,650 WARN [http-nio-8082-exec-5] org.apache.catalina.util.SessionIdGeneratorBase: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [231] milliseconds.
+2022-12-21 16:43:28,655 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/authenticatorString?username=admin&email=null
+2022-12-21 16:43:28,655 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 16:43:28,655 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 16:43:28,656 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 16:43:28,664 INFO [http-nio-8082-exec-5] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the Authenticator String for user with username: admin

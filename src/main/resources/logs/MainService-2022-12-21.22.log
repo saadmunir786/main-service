@@ -1,0 +1,58 @@
+2022-12-21 21:51:18,040 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-21 21:51:18,159 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 106 ms. Found 5 JPA repository interfaces.
+2022-12-21 21:51:19,551 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8082 (http)
+2022-12-21 21:51:19,566 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-21 21:51:19,568 INFO [restartedMain] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-12-21 21:51:19,607 INFO [restartedMain] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-21 21:51:19,802 INFO [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-12-21 21:51:19,802 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2796 ms
+2022-12-21 21:51:20,026 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-21 21:51:20,088 INFO [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-21 21:51:20,282 INFO [restartedMain] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-21 21:51:20,438 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-12-21 21:51:21,110 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-12-21 21:51:21,147 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-21 21:51:22,277 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-21 21:51:22,287 INFO [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-21 21:51:22,850 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-21 21:51:23,458 INFO [restartedMain] com.exampleMainService.configurations.SecurityConfiguration: Allowed Roles: ADMIN,USER,MANAGER,SALEPERSON,II,newrole,newrole,newrole
+2022-12-21 21:51:23,907 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6aaa124c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4866e4b9, org.springframework.security.web.context.SecurityContextPersistenceFilter@184fef2f, org.springframework.security.web.header.HeaderWriterFilter@15d8eae, org.springframework.web.filter.CorsFilter@b4cf0c5, org.springframework.security.web.authentication.logout.LogoutFilter@1a9719fa, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@eb50575, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@7b5c89aa, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@105b29a1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1dfbcc5e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7ec6f300, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e2034ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2170fbc3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27f985df, org.springframework.security.web.session.SessionManagementFilter@405588bc, org.springframework.security.web.access.ExceptionTranslationFilter@413a5770, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27fc9348]
+2022-12-21 21:51:24,179 WARN [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-21 21:51:24,549 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-12-21 21:51:24,729 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8082"]
+2022-12-21 21:51:24,790 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-21 21:51:24,821 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Started MainServiceApplication in 8.322 seconds (JVM running for 9.818)
+2022-12-21 21:53:34,766 INFO [http-nio-8082-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-21 21:53:34,766 INFO [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-12-21 21:53:34,768 INFO [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+2022-12-21 21:53:34,779 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/getOtp
+2022-12-21 21:53:35,400 WARN [http-nio-8082-exec-2] org.apache.catalina.util.SessionIdGeneratorBase: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [317] milliseconds.
+2022-12-21 21:53:35,411 DEBUG [http-nio-8082-exec-2] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/getOtp
+2022-12-21 21:53:35,411 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 21:53:35,412 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 21:53:35,413 INFO [http-nio-8082-exec-2] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 21:53:35,469 INFO [http-nio-8082-exec-2] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the OTP using secret: WSKYGH72KDPPDDD47CFRQOBAZ5W53DO5
+2022-12-21 21:53:44,739 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/getOtp
+2022-12-21 21:53:44,741 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/getOtp
+2022-12-21 21:53:44,741 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 21:53:44,741 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 21:53:44,741 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 21:53:44,751 INFO [http-nio-8082-exec-3] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the OTP using secret: WSKYGH72KDPPDDD47CFRQOBAZ5W53DO5
+2022-12-21 21:53:49,068 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/getOtp
+2022-12-21 21:53:49,069 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/getOtp
+2022-12-21 21:53:49,069 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 21:53:49,070 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 21:53:49,070 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 21:53:49,081 INFO [http-nio-8082-exec-4] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the OTP using secret: WSKYGH72KDPPDDD47CFRQOBAZ5W53DO5
+2022-12-21 21:53:59,345 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/getOtp
+2022-12-21 21:53:59,347 DEBUG [http-nio-8082-exec-5] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/getOtp
+2022-12-21 21:53:59,347 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 21:53:59,347 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 21:53:59,347 INFO [http-nio-8082-exec-5] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 21:53:59,360 INFO [http-nio-8082-exec-5] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the OTP using secret: WSKYGH72KDPPDDD47CFRQOBAZ5W53DO5
+2022-12-21 21:54:05,103 DEBUG [http-nio-8082-exec-6] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/getOtp
+2022-12-21 21:54:05,104 DEBUG [http-nio-8082-exec-6] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/getOtp
+2022-12-21 21:54:05,105 INFO [http-nio-8082-exec-6] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 21:54:05,105 INFO [http-nio-8082-exec-6] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 21:54:05,106 INFO [http-nio-8082-exec-6] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 21:54:05,119 INFO [http-nio-8082-exec-6] com.exampleMainService.controllers.AuthenticatorController: Trying to generate the OTP using secret: WSKYGH72KDPPDDD47CFRQOBAZ5W53DO5

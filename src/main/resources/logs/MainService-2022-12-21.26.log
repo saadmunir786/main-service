@@ -1,0 +1,61 @@
+2022-12-21 22:19:45,886 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-12-21 22:19:45,915 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-12-21 22:19:59,460 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Starting MainServiceApplication using Java 11.0.16 on Desktop-CDN-T480 with PID 15564 (D:\Tasks\MainService\target\classes started by T480 in D:\Tasks\MainService)
+2022-12-21 22:19:59,460 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-12-21 22:19:59,465 INFO [restartedMain] com.exampleMainService.MainServiceApplication: No active profile set, falling back to 1 default profile: "default"
+2022-12-21 22:19:59,527 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-21 22:19:59,528 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-21 22:20:00,609 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-21 22:20:00,704 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 83 ms. Found 5 JPA repository interfaces.
+2022-12-21 22:20:01,636 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8082 (http)
+2022-12-21 22:20:01,646 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8082"]
+2022-12-21 22:20:01,646 INFO [restartedMain] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-12-21 22:20:01,647 INFO [restartedMain] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-21 22:20:01,773 INFO [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-12-21 22:20:01,774 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2245 ms
+2022-12-21 22:20:02,031 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-21 22:20:02,084 INFO [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-21 22:20:02,321 INFO [restartedMain] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-21 22:20:02,436 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-12-21 22:20:02,771 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-12-21 22:20:02,793 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-21 22:20:03,677 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-21 22:20:03,688 INFO [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-21 22:20:04,214 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-21 22:20:04,757 INFO [restartedMain] com.exampleMainService.configurations.SecurityConfiguration: Allowed Roles: ADMIN,USER,MANAGER,SALEPERSON,II,newrole,newrole,newrole
+2022-12-21 22:20:05,165 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ae27779, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48dbc31d, org.springframework.security.web.context.SecurityContextPersistenceFilter@42baa0ff, org.springframework.security.web.header.HeaderWriterFilter@78e7b091, org.springframework.web.filter.CorsFilter@1c6090c5, org.springframework.security.web.authentication.logout.LogoutFilter@7071ca85, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@337ab32b, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@299e3ab9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5c3d423f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6499e3c0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6da80c00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@504a01b5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63439398, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6dc91995, org.springframework.security.web.session.SessionManagementFilter@10fabd, org.springframework.security.web.access.ExceptionTranslationFilter@12e018ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5783291b]
+2022-12-21 22:20:05,493 WARN [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-21 22:20:05,934 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-12-21 22:20:06,124 INFO [restartedMain] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8082"]
+2022-12-21 22:20:06,163 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-21 22:20:06,191 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Started MainServiceApplication in 7.227 seconds (JVM running for 9.114)
+2022-12-21 22:20:24,018 INFO [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-21 22:20:24,019 INFO [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-12-21 22:20:24,022 INFO [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet: Completed initialization in 2 ms
+2022-12-21 22:20:24,043 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOpt
+2022-12-21 22:20:25,117 WARN [http-nio-8082-exec-1] org.apache.catalina.util.SessionIdGeneratorBase: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [544] milliseconds.
+2022-12-21 22:20:25,136 DEBUG [http-nio-8082-exec-1] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOpt
+2022-12-21 22:20:25,137 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 22:20:25,139 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 22:20:25,140 INFO [http-nio-8082-exec-1] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 22:20:25,227 INFO [http-nio-8082-exec-1] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 048448 against the username: admin
+2022-12-21 22:20:32,124 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOpt
+2022-12-21 22:20:32,125 DEBUG [http-nio-8082-exec-3] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOpt
+2022-12-21 22:20:32,126 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 22:20:32,126 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 22:20:32,126 INFO [http-nio-8082-exec-3] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 22:20:32,141 INFO [http-nio-8082-exec-3] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 048448 against the username: admin
+2022-12-21 22:20:41,727 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Securing POST /authenticator/validateOpt
+2022-12-21 22:20:41,729 DEBUG [http-nio-8082-exec-4] org.springframework.security.web.FilterChainProxy: Secured POST /authenticator/validateOpt
+2022-12-21 22:20:41,729 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Inside doFilter method.
+2022-12-21 22:20:41,730 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: Request method: POST
+2022-12-21 22:20:41,730 INFO [http-nio-8082-exec-4] com.exampleMainService.filters.PermissionFilter: ROLE_ADMIN
+2022-12-21 22:20:41,745 INFO [http-nio-8082-exec-4] com.exampleMainService.controllers.AuthenticatorController: Trying to validate the OTP: 607677 against the username: admin
+2022-12-21 22:30:32,682 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-21 22:30:32,687 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-12-21 22:30:32,710 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-12-21 22:30:49,057 INFO [restartedMain] com.exampleMainService.MainServiceApplication: Starting MainServiceApplication using Java 11.0.16 on Desktop-CDN-T480 with PID 1776 (D:\Tasks\MainService\target\classes started by T480 in D:\Tasks\MainService)
+2022-12-21 22:30:49,060 INFO [restartedMain] com.exampleMainService.MainServiceApplication: No active profile set, falling back to 1 default profile: "default"
+2022-12-21 22:30:49,062 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 6.2.3.Final
+2022-12-21 22:30:49,114 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-21 22:30:49,114 INFO [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
